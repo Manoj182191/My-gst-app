@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "HelloCA",
+    "slug": "hello-ca",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "https://images.unsplash.com/photo-1633409361618-c73427e4e206?q=80&w=200&auto=format&fit=crop",
+    "scheme": "helloca",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.helloca.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "https://images.unsplash.com/photo-1633409361618-c73427e4e206?q=80&w=200&auto=format&fit=crop",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.helloca.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "https://images.unsplash.com/photo-1633409361618-c73427e4e206?q=80&w=32&auto=format&fit=crop"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-local-authentication"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
